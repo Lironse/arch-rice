@@ -1,0 +1,108 @@
+
+# CONFIG BY LIRON
+
+env:
+  TERM: alacritty
+
+window:
+  # Background opacity
+  opacity: 0.0
+
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  history: 10000
+
+  # Scrolling distance multiplier.
+  multiplier: 3
+
+# FONT CONFIG
+font:
+  normal:
+    family: monospace
+    style: Regular
+
+  bold:
+    family: monospace
+    style: Bold
+
+  italic:
+    family: monospace
+    style: Italic
+
+  bold_italic:
+    family: monospace
+    style: Bold Italic
+
+  size: 20.0
+
+  # SPACING
+  offset:
+    x: 0
+    y: 0
+
+#check custom fonts first
+  #builtin_box_drawing: true
+
+# COLORS
+colors:
+  primary:
+    background: '#1d1f21'
+    foreground: '#c5c8c6'
+
+    dim_foreground: '#828482'
+    bright_foreground: '#eaeaea'
+
+  # Cursor colors
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+
+  # Selection colors
+  selection:
+    text: CellBackground
+    background: CellForeground
+
+  # Preset colors
+  normal:
+    black:   '#1d1f21'
+    red:     '#cc6666'
+    green:   '#b5bd68'
+    yellow:  '#f0c674'
+    blue:    '#81a2be'
+    magenta: '#b294bb'
+    cyan:    '#8abeb7'
+    white:   '#c5c8c6'
+
+  bright:
+    black:   '#666666'
+    red:     '#d54e53'
+    green:   '#b9ca4a'
+    yellow:  '#e7c547'
+    blue:    '#7aa6da'
+    magenta: '#c397d8'
+    cyan:    '#70c0b1'
+    white:   '#eaeaea'
+
+  dim:
+    black:   '#131415'
+    red:     '#864343'
+    green:   '#777c44'
+    yellow:  '#9e824c'
+    blue:    '#556a7d'
+    magenta: '#75617b'
+    cyan:    '#5b7d78'
+    white:   '#828482'
+
+cursor:
+  # Cursor style
+  style:
+    # Cursor shape(▇ Block, _ Underline, | Beam)
+    shape: Beam
+
+    # Cursor blinking (Never/Off/On/Always)
+    blinking: Never
+    blink_interval: 750
+
+  # Cursor thickness (0-1)
+  thickness: 0.15
